@@ -1,0 +1,202 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/**start header**/
+.header{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+ .header .header-parent{
+   width: 90%;
+   height: 100px;
+   margin: 0 auto;
+
+ }
+ 
+
+.header .header-parent .navbar {
+     float: right;
+     margin-right: 30px;
+ }
+ .header .header-parent .logo {
+     float: left;
+     margin-left: 30px;
+
+ }
+  .header .header-parent .logo div:hover{
+      color:darkorange;
+  }
+ .header  .header-parent  .logo  .circle{
+     width: 30px;
+     height: 30px;
+     border-radius: 30px;
+     background-color: #3d3c3c;
+     float: left;
+    margin-top: 35px;
+    
+ }
+ .header .header-parent .logo .circle:hover{
+    background-color: darkorange;
+ }
+ .header  .header-parent  .logo .logo-title {
+     float: right;
+     margin-left: 10px;
+     font-size: 32px;
+     text-transform: uppercase;
+     margin-top: 13px;
+     color:#3d3c3c ;
+ }
+ .header .header-parent .navbar ul li {
+     float: left;
+     margin-left: 40px;
+    font-size: 18px;
+   line-height: 100px;
+ }
+ .header .header-parent .navbar ul li a {
+     color:#3d3c3c;
+     text-transform: uppercase;
+     font-weight: 500;
+ }
+ .header .header-parent .navbar ul li a:hover{
+     color: darkorange;
+ }
+/**end header**/
+/**start main **/
+/**start description**/
+.main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+   
+
+}
+.main .dascripion {
+    width:90% ; 
+    height:300px ;
+    margin: 0 auto;
+    background-color: #3d3c3c;
+    color:#fff
+}
+ /**.main .dascripion .desc-parent{
+    width: 60%;
+    margin: 0 auto;
+}**/
+.main .dascripion .desc-parent{
+    width: 940px;
+    margin: 0 auto;
+}
+.main .dascripion .dasc-title {
+    float: left;
+    width:470px;
+    margin-top: 54px;
+}
+.main .dascripion .dasc-title h2{
+    font-size: 48px;
+
+}
+.main .dascripion .dasc-title h1{
+    font-size: 118px;
+}
+.main .dascripion .desc-text {
+    width: 470px;
+    float: left;
+    margin-top: 89px;
+}
+.main .dascripion .desc-text p{
+    border-left: 15px solid#fff;
+    padding-left: 20px;
+}
+.main .dascripion .desc-text a{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    font-size:23px;
+}
+.main .dascripion .desc-text .desc-links span{
+   margin: 0 7px;
+}
+/**********end main descripion**********/
+/**********start main article**********/
+.main .article{
+    width: 90%;
+    height: 385px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .article .parent-article{
+    width: 1260px;
+    margin: 50px auto 0 auto;
+   height: 385px;
+}
+.main .article .parent-article img{
+    width: 370px;
+    float: left;
+}
+.main .article .parent-article .left-article{
+    float: left;
+    width: 750px;
+    
+}
+.main .article .parent-article .right-article {
+    width: 510px;
+    float: left;
+}
+.main .article .parent-article .right-article img {
+    width:187px;
+
+   
+}
+.main .article .parent-article .article-details{
+    padding-left: 20px;
+    width: 300px;
+    float: left;
+    margin-top: 64px;
+    color: #3d3c3c;
+}
+.main .article .parent-article .article-details p{
+    margin: 15px 0px 30px 0px;
+    
+}
+.main .article .parent-article .article-details a{
+    color: #fff;
+    background-color: #3d3c3c;
+    padding: 3px 10px 5px 10px;
+    margin-top: 127px;
+}
+.main .article .parent-article .article-details a:hover{
+    background-color: darkorange;
+}
+/**********and main article **********/
+
+/**********start footer**********/
+
+.footer{
+    width: 100%;
+    max-width: 1920px;
+    margin: 50px auto;
+    height: 80px;
+}
+.footer .social-media{
+    float:right;
+}
+.footer .social-media ul li{
+    display: inline-block;
+}
+.footer .social-media ul li i{
+    color: #3d3c3c;
+    margin-left: 15px;
+    font-size: 22px;
+}
+.footer .parent-footer{
+    width: 500px;
+    margin:  0 auto;
+}
+.footer .parent-footer .info{
+float: left;
+}
